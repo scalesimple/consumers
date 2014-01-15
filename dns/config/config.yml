@@ -1,0 +1,21 @@
+---
+debug: true
+logfile: '/var/log/dns.log'
+rabbit_host: localhost
+rabbit_username: guest
+rabbit_password: guest
+rabbit_queue: dev1.jobs
+domain: 'scalesimple.net'
+#------------------------------------------------------------------------------------------
+# domain - Domain at DnsMadeEasy to use (e.g., scalesimple.net) 
+# cname_edge - domain to CNAME customers to 
+# cname - prefix to use on the customer hostname (under domain above) 
+#         www.client.com.'cname' CNAME 'cname_edge' ... so with cname='edge' that would be
+#         www.client.com.edge CNAME my.cdn.edge.hostname.com
+#
+#         Then clients CNAME www.client.com to www.client.com.edge.scalesimple.net
+#------------------------------------------------------------------------------------------
+cname: 'edge'
+cname_edge: 'a.edge.dev.scalesimple.net.'
+dns_api_key: "dnsmadeeasy-key"
+dns_api_secret: "dnsmadeeasy-secret"
