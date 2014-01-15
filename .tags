@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DnsLib	dns/lib/dns_lib/dns_lib.rb	/^ class DnsLib $/;"	c	class:SSConsumer
+Logger	dns/lib/logger/logger.rb	/^	class Logger$/;"	c	class:SSConsumer
+Logger	vcl/logger/logger.rb	/^	class Logger$/;"	c	class:SSConsumer
+SSConsumer	dns/lib/dns.rb	/^module SSConsumer$/;"	m
+SSConsumer	dns/lib/dns_lib/dns_lib.rb	/^module SSConsumer$/;"	m
+SSConsumer	dns/lib/logger/logger.rb	/^module SSConsumer$/;"	m
+SSConsumer	dns/lib/subscriber/subscriber.rb	/^module SSConsumer$/;"	m
+SSConsumer	jobs_consumer_dev.rb	/^module SSConsumer$/;"	m
+SSConsumer	vcl/logger/logger.rb	/^module SSConsumer$/;"	m
+SSConsumer	vcl/subscriber/subscriber.rb	/^module SSConsumer$/;"	m
+SSConsumer	vcl/vcl.rb	/^module SSConsumer$/;"	m
+SSConsumer	vcl/vcl_ban/vcl_ban.rb	/^module SSConsumer$/;"	m
+SSConsumer	vcl/vcl_deploy/vcl_deploy.rb	/^module SSConsumer$/;"	m
+SSConsumer	vcl/vcl_generator/vcl_generator.rb	/^module SSConsumer$/;"	m
+Subscriber	dns/lib/subscriber/subscriber.rb	/^	class Subscriber$/;"	c	class:SSConsumer
+Subscriber	vcl/subscriber/subscriber.rb	/^	class Subscriber$/;"	c	class:SSConsumer
+VclBan	vcl/vcl_ban/vcl_ban.rb	/^	class VclBan$/;"	c	class:SSConsumer
+VclDeploy	vcl/vcl_deploy/vcl_deploy.rb	/^	class VclDeploy$/;"	c	class:SSConsumer
+VclGenerator	vcl/vcl_generator/vcl_generator.rb	/^ class VclGenerator$/;"	c	class:SSConsumer
+activate_config	vcl/vcl_deploy/vcl_deploy.rb	/^        def activate_config(server,vcl)$/;"	f	class:SSConsumer.VclDeploy
+add_to_vcl	vcl/vcl_generator/vcl_generator.rb	/^  def add_to_vcl(vcl,func)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+ban	vcl/vcl_ban/vcl_ban.rb	/^        def ban(host,path)$/;"	f	class:SSConsumer.VclBan
+close_configs	vcl/vcl_generator/vcl_generator.rb	/^  def close_configs$/;"	f	class:SSConsumer.VclGenerator.setup_config
+debug	dns/lib/logger/logger.rb	/^        def debug$/;"	f	class:SSConsumer.Logger
+debug	vcl/logger/logger.rb	/^        def debug$/;"	f	class:SSConsumer.Logger
+debug	vcl/vcl_generator/vcl_generator.rb	/^  def debug(msg)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+deploy_config	vcl/vcl_deploy/vcl_deploy.rb	/^		def deploy_config(server,cfg,vcl)$/;"	f	class:SSConsumer.VclDeploy
+deploy_configs	vcl/vcl_deploy/vcl_deploy.rb	/^		def deploy_configs(cfg)$/;"	f	class:SSConsumer.VclDeploy
+dns_add_demo_hostname	dns/lib/dns_lib/dns_lib.rb	/^  def dns_add_demo_hostname(hostname)$/;"	f	class:SSConsumer.DnsLib
+dns_add_hostname	dns/lib/dns_lib/dns_lib.rb	/^  def dns_add_hostname(hostname)$/;"	f	class:SSConsumer.DnsLib
+dns_delete_hostname	dns/lib/dns_lib/dns_lib.rb	/^  def dns_delete_hostname(hostname)$/;"	f	class:SSConsumer.DnsLib
+dns_search_hostname	dns/lib/dns_lib/dns_lib.rb	/^  def dns_search_hostname(hostname)$/;"	f	class:SSConsumer.DnsLib
+dns_setup_request	dns/lib/dns_lib/dns_lib.rb	/^  def dns_setup_request$/;"	f	class:SSConsumer.DnsLib
+do_vcl	vcl/subscriber/subscriber.rb	/^  		def do_vcl(action,metadata=nil)$/;"	f	class:SSConsumer.Subscriber
+generate_acl	vcl/vcl_generator/vcl_generator.rb	/^  def generate_acl(rule)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+generate_backend	vcl/vcl_generator/vcl_generator.rb	/^  def generate_backend(hostname)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+generate_config	vcl/vcl_generator/vcl_generator.rb	/^  def generate_config $/;"	f	class:SSConsumer.VclGenerator.setup_config
+generate_host_conditions	vcl/vcl_generator/vcl_generator.rb	/^  def generate_host_conditions(hostnames)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+generate_ips	vcl/vcl_generator/vcl_generator.rb	/^  def generate_ips(ips)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+generate_ruleset	vcl/vcl_generator/vcl_generator.rb	/^  def generate_ruleset(ruleset)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+get_config	vcl/vcl_deploy/vcl_deploy.rb	/^        def get_config(server)$/;"	f	class:SSConsumer.VclDeploy
+get_configs	vcl/vcl_deploy/vcl_deploy.rb	/^		def get_configs$/;"	f	class:SSConsumer.VclDeploy
+get_ruleset	vcl/vcl_generator/vcl_generator.rb	/^  def get_ruleset(hostname)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+global_comment	vcl/vcl_generator/vcl_generator.rb	/^  def global_comment(comment)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+initialize	dns/lib/dns_lib/dns_lib.rb	/^  def initialize(debug=false)$/;"	f	class:SSConsumer.DnsLib
+initialize	dns/lib/logger/logger.rb	/^        def initialize$/;"	f	class:SSConsumer.Logger
+initialize	dns/lib/subscriber/subscriber.rb	/^		def initialize$/;"	f	class:SSConsumer.Subscriber
+initialize	vcl/logger/logger.rb	/^        def initialize$/;"	f	class:SSConsumer.Logger
+initialize	vcl/subscriber/subscriber.rb	/^		def initialize$/;"	f	class:SSConsumer.Subscriber
+initialize	vcl/vcl_ban/vcl_ban.rb	/^  		def initialize$/;"	f	class:SSConsumer.VclBan
+initialize	vcl/vcl_deploy/vcl_deploy.rb	/^  		def initialize(ruleset,hostname = nil)$/;"	f	class:SSConsumer.VclDeploy
+initialize	vcl/vcl_generator/vcl_generator.rb	/^  def initialize(hostname_id)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+issue_ban	vcl/vcl_ban/vcl_ban.rb	/^        def issue_ban(server,host,path)$/;"	f	class:SSConsumer.VclBan
+load_config	dns/lib/dns_lib/dns_lib.rb	/^  def load_config$/;"	f	class:SSConsumer.DnsLib
+load_config	dns/lib/logger/logger.rb	/^        def load_config$/;"	f	class:SSConsumer.Logger
+load_config	dns/lib/subscriber/subscriber.rb	/^        def load_config$/;"	f	class:SSConsumer.Subscriber
+load_config	vcl/logger/logger.rb	/^        def load_config$/;"	f	class:SSConsumer.Logger
+load_config	vcl/subscriber/subscriber.rb	/^        def load_config$/;"	f	class:SSConsumer.Subscriber
+load_config	vcl/vcl_ban/vcl_ban.rb	/^		def load_config$/;"	f	class:SSConsumer.VclBan
+load_config	vcl/vcl_deploy/vcl_deploy.rb	/^        def load_config$/;"	f	class:SSConsumer.VclDeploy
+load_config	vcl/vcl_generator/vcl_generator.rb	/^  def load_config$/;"	f	class:SSConsumer.VclGenerator.setup_config
+log	dns/lib/logger/logger.rb	/^		def log(msg,level='error')$/;"	f	class:SSConsumer.Logger
+log	vcl/logger/logger.rb	/^		def log(msg,level='error')$/;"	f	class:SSConsumer.Logger
+op_to_text	vcl/vcl_generator/vcl_generator.rb	/^  def op_to_text(field,op,value,quotes=true)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_actions	vcl/vcl_generator/vcl_generator.rb	/^  def parse_actions(actions,func) $/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_condition_client_cookie	vcl/vcl_generator/vcl_generator.rb	/^  def parse_condition_client_cookie(rule,key,op,value,name=nil)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_condition_client_ip	vcl/vcl_generator/vcl_generator.rb	/^  def parse_condition_client_ip(rule,key,op,value,name=nil)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_condition_content_type	vcl/vcl_generator/vcl_generator.rb	/^  def parse_condition_content_type(rule,key,op,value,name=nil)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_condition_country	vcl/vcl_generator/vcl_generator.rb	/^  def parse_condition_country(rule,key,op,value,name=nil)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_condition_request_header	vcl/vcl_generator/vcl_generator.rb	/^  def parse_condition_request_header(rule,key,op,value,name=nil)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_condition_request_parameter	vcl/vcl_generator/vcl_generator.rb	/^  def parse_condition_request_parameter(rule,key,op,value,name=nil)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_condition_request_url	vcl/vcl_generator/vcl_generator.rb	/^  def parse_condition_request_url(rule,key,op,value,name=nil)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_global_rule	vcl/vcl_generator/vcl_generator.rb	/^  def parse_global_rule(rule,func)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_global_rules	vcl/vcl_generator/vcl_generator.rb	/^  def parse_global_rules(ruleset,rules)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_message	jobs_consumer_dev.rb	/^  def self.parse_message(msg) $/;"	F	class:SSConsumer
+parse_ordered_rule	vcl/vcl_generator/vcl_generator.rb	/^  def parse_ordered_rule(rule,rulenum,func,actions)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_ordered_rules	vcl/vcl_generator/vcl_generator.rb	/^  def parse_ordered_rules(ruleset,rules)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+parse_payload	dns/lib/subscriber/subscriber.rb	/^  		def parse_payload(payload)$/;"	f	class:SSConsumer.Subscriber
+parse_payload	vcl/subscriber/subscriber.rb	/^        def parse_payload(payload)$/;"	f	class:SSConsumer.Subscriber
+parse_rules	vcl/vcl_generator/vcl_generator.rb	/^  def parse_rules(ruleset)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+print_backend	vcl/vcl_generator/vcl_generator.rb	/^  def print_backend(name,ip,hostname)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+print_dns_director	vcl/vcl_generator/vcl_generator.rb	/^  def print_dns_director(hostname,backends)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+print_rr_director	vcl/vcl_generator/vcl_generator.rb	/^  def print_rr_director(hostname,backends)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+restore_configs	vcl/vcl_deploy/vcl_deploy.rb	/^        def restore_configs$/;"	f	class:SSConsumer.VclDeploy
+setup_agent	vcl/vcl_ban/vcl_ban.rb	/^  		def setup_agent(server)$/;"	f	class:SSConsumer.VclBan
+setup_agent	vcl/vcl_deploy/vcl_deploy.rb	/^  		def setup_agent(server)$/;"	f	class:SSConsumer.VclDeploy
+setup_config	vcl/vcl_generator/vcl_generator.rb	/^  def setup_config $/;"	f	class:SSConsumer.VclGenerator
+spaces	vcl/vcl_generator/vcl_generator.rb	/^  def spaces(size=1)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+start	dns/lib/dns.rb	/^    def start$/;"	f	class:SSConsumer
+start	jobs_consumer_dev.rb	/^  def self.start$/;"	F	class:SSConsumer
+subscribe	dns/lib/subscriber/subscriber.rb	/^  		def subscribe$/;"	f	class:SSConsumer.Subscriber
+subscribe	vcl/subscriber/subscriber.rb	/^  		def subscribe$/;"	f	class:SSConsumer.Subscriber
+tabs	vcl/vcl_generator/vcl_generator.rb	/^  def tabs(size=1)$/;"	f	class:SSConsumer.VclGenerator.setup_config
+ttl_time	vcl/vcl_generator/vcl_generator.rb	/^  def ttl_time(t)$/;"	f	class:SSConsumer.VclGenerator.setup_config
